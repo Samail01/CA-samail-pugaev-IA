@@ -1,0 +1,130 @@
+@import url(./hamburgernav.css);
+@import url(./footer.css);
+@import url(./payment.css);
+@import url(./contactandabaout.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #222;
+    padding-bottom: 50px;
+}
+
+/* Home page Styling, Background Image*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-image-main {
+    position: relative;
+    width: 100%;
+    height: auto;
+   margin-top: 60px;
+}
+
+.heading{
+    color: white;
+    position: absolute;top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn1 {
+position: absolute; top: 40%;
+background-color: rgb(177, 171, 171);
+border-radius: 4px;
+text-align: center;
+margin-top: 1.3rem;
+font-size: 30px;
+font-weight: bold;
+border: solid black 2px;
+padding: 8px;
+border-radius: 10px;
+padding-left: 10px;
+padding-right: 10px;
+text-decoration: none;
+}
+
+.btn1 a {
+  color: white;
+  text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+    color: white;
+    font-size: 10px;
+}
+
+
+  /* Jackets page*/ 
+
+  .all-jacketsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 60px;
+    place-items: center;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    padding-top: 80px;
+}
+
+
+
+.all-jackets h3 p {
+position: absolute;
+}
+
+
+
+.image-container {
+max-width: 400px;
+}
+
+.jackets {
+    height: 450px;
+    width: 100%;
+    background-color: rgb(179, 177, 177);
+    margin-right: 100px;
+  }
+
+  .border-box {
+    background-color: rgb(222, 220, 220);
+    margin-top: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.border-box h3 {
+    padding-bottom: 5px;
+}
+
+.add-to-cart-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-to-cart-btn:hover {
+    background-color: red;
+}
+
+  
