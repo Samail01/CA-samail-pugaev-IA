@@ -1,0 +1,149 @@
+
+/*Cart page start */
+
+.whole-cart{
+
+    padding-top: 40px;
+    padding-bottom: 155px;
+    padding-left: 10px;
+    
+    }
+    
+    .fir-row{
+    display: flex;
+    justify-content: space-around;
+    
+    }
+    
+    
+    .fir-row p{
+     padding: 70px 15px 0 15px;
+     border-bottom: 2px solid black;
+     
+    }
+    
+    .sec-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    
+    }
+    
+    .img3{
+    width: 75px;
+    
+    }
+    
+    .whole-cart button{
+      font-size: 13px;
+      
+    }
+    
+    .btn3{
+      position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 1px;
+    left: 50%;
+    
+    
+    }
+    
+  
+    @media (min-width: 620px){
+        .fir-row p{
+          padding: 30px 60px 0 60px;
+        }
+    }
+
+
+
+    /* Checkout page */ 
+
+    .whole-co {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        min-height: 100vh;
+        
+        }
+        
+        form{
+        padding: 20px;
+        
+        
+        }
+        
+        .row1-co {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+        
+        }
+        
+        .col1{
+        flex: 1 1 150px;
+        
+        }
+        
+        .title-co{
+        font-size: 20px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        
+        
+        }
+        
+        .inputbox{
+            margin: 15px 0;
+        }
+        
+        span{
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        input{
+            width: 100%;
+            border: solid black;
+            padding: 10px 15px;
+            font-size: 15px;
+            text-transform: none;
+        }
+        
+        
+        
+        .pay-co {
+            width: 30%;
+            font-size: 17px;
+            background-color: #0F3B53;
+            color: white;
+            padding: 10px 5px 10px 5px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius:5px;
+        }
+
+
+        /* Order confirmation page */ 
+
+        .check{
+            font-size: 150px;
+            padding-top: 50px;
+            }
+            
+            .orderconf{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 100px;
+                gap: 10px;
+            }
