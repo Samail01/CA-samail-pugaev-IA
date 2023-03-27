@@ -24,3 +24,9 @@ About us: nothing special
 Contact: made a different contact form, one that looks better and also added regex.
 
 i tried adding adding JS to my navbar and in the start it worked, however went i made more and more changes it stopped being responsive
+
+Links to Hotjar user tests.
+1: https://insights.hotjar.com/r?site=3390239&recording=22453488336
+2: https://insights.hotjar.com/r?site=3390239&recording=22451334584
+3: https://insights.hotjar.com/r?site=3390239&recording=22479639861
+4: https://insights.hotjar.com/r?site=3390239&recording=22595200693
